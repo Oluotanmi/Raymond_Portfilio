@@ -1,6 +1,6 @@
 'use client'
 
-import React,{useState, useTransition} from "react"
+import React,{useState} from "react"
 import Image from "next/image"
 import image from '@/Public/IMG-20230410-WA0024.jpg'
 import TabButton from './TabButton'
@@ -47,7 +47,7 @@ const TAB_DATA = [
 const AboutSection = () => {
 
   const [tab, setTab] = useState('skills');
-  const [isPending, startTransition] = useTransition()
+//   const [isPending, startTransition] = useTransition()
 
   const handleTabChange =(id) => {
     startTransition(() =>{
@@ -59,6 +59,7 @@ const AboutSection = () => {
      <section className="text-white" id="about">
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 xl:px-16">
             <Image 
+               alt="img"
                src={image}
                width={500}
                height={500}

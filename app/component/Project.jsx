@@ -9,6 +9,7 @@ const Project = () => {
              <div className="m-20">
                 <div className="xl:flex ">
                     <Image 
+                       alt="img"
                        src={image}
                        width={250}
                        height={250}

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navbar from '@/app/component/Navbar'
 import HeroSection from './component/HeroSection'
 import AchievementSection from '@/app/component/AchivementSection'
@@ -15,7 +14,6 @@ export default function Home() {
         <HeroSection />
         <AchievementSection />
         <AboutSection />
-      
         <Project />
         <EmailSection />
       </div>

@@ -1,7 +1,6 @@
 'use client'
 
 import Link from "next/link"
-import { motion } from "framer-motion"
 import Github from '@/Public/github.png'
 import linkedin from '@/Public/linkedin-logo.png' 
 import Image from "next/image"
@@ -30,6 +29,7 @@ const EmailSection = () => {
             <div className="bg-white p-2 w-[40px] rounded-full mt-2">
               <Link href='/' >
                 <Image 
+                    alt="img"
                     src={Github}
                     className="w-8"
                 />
@@ -38,7 +38,8 @@ const EmailSection = () => {
             <div className="bg-white p-2 w-[40px] rounded-full mt-2">
               <Link href='/' >
                 <Image 
-                    src={Github}
+                    alt="img"
+                    src={linkedin}
                     className="w-8"
                 />
               </Link>
