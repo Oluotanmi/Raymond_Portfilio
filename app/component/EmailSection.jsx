@@ -21,7 +21,7 @@ const EmailSection = () => {
           <h5 className="text-xl font-bold text-white my-2">
             let&apos;s connect
           </h5>
-          <p className="text-[#ADB7BE]">
+          <p className="text-[#ADB7BE] text-[14px] xl:text-md">
              I&apos;m currently looking for new opportunities, my inbox is always open.
              Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you 
           </p>
@@ -56,7 +56,7 @@ const EmailSection = () => {
                   type="email"
                   id="email"
                   required
-                  className="bg-[#18191e] border border-[#33353f] placeholder-[#9CA2A9] text-gray-100 text-100 text-sm rounded-lg w-full p-2.5"
+                  className="bg-[#18191e] border border-[#33353f] placeholder-[#9CA2A9]  text-gray-100 text-100 text-sm rounded-lg w-full p-2.5"
                   placeholder="oluwabukunmioluotanmi@gmail.com"
                 />
                 <label className="text-white block mb-2 text-sm font-medium">

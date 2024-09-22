@@ -3,9 +3,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import Link from "next/link";
+
 import image from '@/Public/man-wearing-glasses-orange-hoodie-is-sitting-front-laptop_1103290-135968.jpg'
 import Image from "next/image";
+import Link from "next/link";
 
 
 const HeroSection = () => {
@@ -46,12 +47,13 @@ const HeroSection = () => {
                  Hire me 
               </Link>
               <Link 
-                  href="/"
+                  href='new Oluotanmi Oluwabukunmi Resume.docx'
                   className="px-1 my-2 text-center font-bold inline-block py-1 w-full sm:w-fit hover:bg-slate-800 rounded-full mr-4 bg-gradient-to-r from-primary-400 to bg-blue-400 mt-3 text-white"
                 >
-                <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                   Download CV 
-                </span>
+                  <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                    Download CV 
+                  </span>
+
               </Link>
            </div>
            </motion.div>
