@@ -4,10 +4,59 @@ import Link from "next/link"
 import Github from '@/Public/github.png'
 import linkedin from '@/Public/linkedin-logo.png' 
 import Image from "next/image"
-
+import { useState } from "react"
+import emailjs from 'emailjs-com'
 
 const EmailSection = () => {
 
+  const [ emailSubmitted, setEmailSubmitted ] = useState( false );
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const data = {
+        email: e.target.email.value,
+        subject: e.target.subject.value,
+        message: e.target.subject.value
+    };
+    const JSONdata = JSON.stringify(data);
+    const endpoint = "api/send"
+
+    const options = {
+      method: "POST",
+      headers: {
+        "content-Types": "application/json"
+      },
+      body: JSONdata
+    }
+
+   const response = await fetch(endpoint, options);
+   const resData = await response.json();
+
+   if(response.status === 200) {
+    console.log("Message sent")
+   }
+     setEmailSubmitted(true)
+
+  }
+
+  const sendEmail = (e) => {
+    const sendEamail = (e) => {
+      e.preventDefault();
+
+      emailjs
+         .sendForm(
+          'service_jnk7v08'
+         )
+         .then (
+          (result) => {
+            alert("email sent")
+          },
+          (error) => {
+            alert("error")
+          }
+         )
+    }
+  }
     
 
     return(
@@ -46,7 +95,12 @@ const EmailSection = () => {
             </div>
           </div>
           <div>
-            <form className="flex flex-col">
+            {emailSubmitted ? (
+              <p>
+                Email sent Succesfuly!
+              </p>
+            ) : (
+            <form className="flex flex-col" method="POST" action="https://formsubmit.co/oluwabukunmmiOluotanmi@gmail.com" >
              <div className="mt-3"> 
                 <label className="text-white block mb-2 text-sm font-medium">
                   Your email
@@ -86,6 +140,7 @@ const EmailSection = () => {
                 </button>
             </div>
            </form>
+          )}
         </div>
        </div>
       </section>     

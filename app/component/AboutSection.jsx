@@ -51,7 +51,7 @@ const AboutSection = () => {
   const [isPending, startTransition] = useTransition()
 
   const handleTabChange =(id) => {
-    isPending()
+    
     startTransition(() =>{
       setTab(id);
     })
@@ -73,7 +73,7 @@ const AboutSection = () => {
                     I am a front-end web developer with a passion for creating interactive and responsive web application, 
                     I have experience working with Javascript, React, Redux, Node.js, Express, PostgreSQL, sequelize, HTML, CSS and Git. 
                     I am a quick learner and i am always looking to expand my knowledge and skill set.
-                     i am team player and i am excited to work wiith others to create amazing apllication 
+                     i am a team player and i am excited to work wiith others to create amazing application 
                 </p>
                 <div className="flex flex-row justify-start mt-8">
                     <TabButton 
