@@ -48,11 +48,7 @@ const EmailSection = () => {
             </div>
           </div>
           <div>
-            {emailSubmitted ? (
-              <p>
-                Email sent Succesfuly!
-              </p>
-            ) : (
+
             <form className="flex flex-col" method="POST" action="https://formsubmit.co/oluwabukunmmiOluotanmi@gmail.com" >
              <div className="mt-3"> 
                 <label className="text-white block mb-2 text-sm font-medium">
@@ -93,7 +89,6 @@ const EmailSection = () => {
                 </button>
             </div>
            </form>
-          )}
         </div>
        </div>
       </section>     
