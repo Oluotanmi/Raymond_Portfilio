@@ -4,7 +4,7 @@ import React,{useState} from "react"
 import Image from "next/image"
 import image from '@/Public/IMG-20230410-WA0024.jpg'
 import TabButton from './TabButton'
-import { useTransition } from "react"
+// import { useTransition } from "react"
 
 const TAB_DATA = [
     {
@@ -48,7 +48,7 @@ const TAB_DATA = [
 const AboutSection = () => {
 
   const [tab, setTab] = useState('skills');
-  const [isPending, startTransition] = useTransition()
+//   const [isPending, startTransition] = useTransition()
 
   const handleTabChange =(id) => {
     

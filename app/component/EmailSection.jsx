@@ -5,11 +5,11 @@ import Github from '@/Public/github.png'
 import linkedin from '@/Public/linkedin-logo.png' 
 import Image from "next/image"
 import { useState } from "react"
-import emailjs from 'emailjs-com'
+// import emailjs from 'emailjs-com'
 
 const EmailSection = () => {
 
-  const [ emailSubmitted, setEmailSubmitted ] = useState( false );
+  // const [ emailSubmitted, setEmailSubmitted ] = useState( false );
 
     
     return(
