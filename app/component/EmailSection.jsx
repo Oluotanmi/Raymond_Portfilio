@@ -49,7 +49,7 @@ const EmailSection = () => {
           </div>
           <div>
 
-            <form className="flex flex-col" method="POST" action="https://formsubmit.co/oluwabukunmmiOluotanmi@gmail.com" >
+            <form className="flex flex-col" method="POST" action="https://formsubmit.co/oluwabukunmmioluotanmi@gmail.com" >
              <div className="mt-3"> 
                 <label className="text-white block mb-2 text-sm font-medium">
                   Your email
