@@ -4,7 +4,7 @@ import Link from "next/link"
 import Github from '@/Public/github.png'
 import linkedin from '@/Public/linkedin-logo.png' 
 import Image from "next/image"
-import { useState } from "react"
+// import { useState } from "react"
 // import emailjs from 'emailjs-com'
 
 const EmailSection = () => {
