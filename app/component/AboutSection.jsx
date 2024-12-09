@@ -52,9 +52,9 @@ const AboutSection = () => {
 
   const handleTabChange =(id) => {
     
-    startTransition(() =>{
+    // startTransition(() =>{
       setTab(id);
-    })
+    // })
   }
 
     return(
