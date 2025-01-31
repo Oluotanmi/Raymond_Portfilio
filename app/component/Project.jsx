@@ -28,7 +28,7 @@ const Project = () => {
                         />
                     </Link>
 
-                    <Link href='https:/github.com/Oluotanmi/magix-movies'>
+                    <Link href='https://github.com/Oluotanmi/magix-movies.git'>
                     <Image 
                         alt="img"
                         src={Github}
@@ -58,7 +58,7 @@ const Project = () => {
                         />
                     </Link>
 
-                    <Link href='https:/github.com/Oluotanmi/Lotus_Music'>
+                    <Link href='https://github.com/Oluotanmi/Lotus_Music.git'>
                         <Image 
                             alt="img"
                             src={Github}
@@ -88,7 +88,7 @@ const Project = () => {
                         />
                     </Link>
 
-                    <Link href='https:/github.com/Oluotanmi/Book-Hub'>
+                    <Link href='https://github.com/Oluotanmi/Book-Hub.git'>
                             <Image 
                                 alt="img"
                                 src={Github}
@@ -117,7 +117,7 @@ const Project = () => {
                         className="rounded-md xl:w-[500px] "
                         />
                     </Link>
-                    <Link href='https:/github.com/Oluotanmi/Gestalll'>
+                    <Link href='https://github.com/Oluotanmi/Gestalll.git'>
                             <Image 
                                 alt="img"
                                 src={Github}
