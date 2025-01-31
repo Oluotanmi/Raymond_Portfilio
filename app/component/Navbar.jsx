@@ -33,7 +33,7 @@ const NavBar = () => {
               href={"/"}
               className="text-2xl md:text-5xl text-[#121212] font-semibold"
              >
-               Raymond
+               Oluwabukunmi
             </Link>
             <div className="mobile-menu block md:hidden">
                 {

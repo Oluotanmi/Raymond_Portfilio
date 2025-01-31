@@ -8,7 +8,7 @@ import Lotus_Music from '../../Public/lotus.png'
 import Book_Hub from '../../Public/Screenshot 2024-05-16 182920.png'
 import Getstall from '../../Public/Screenshot getsall.png'
 import Link from "next/link";
-import linkedin from '@/Public/linkedin-logo.png' 
+import Github from '../../Public/github.png' 
 
 const Project = () => {
     return(
@@ -31,7 +31,7 @@ const Project = () => {
                     <Link href='https:/github.com/Oluotanmi/magix-movies'>
                     <Image 
                         alt="img"
-                        src={linkedin}
+                        src={Github}
                         width={250}
                         height={250}
                         className="rounded-md m-10  w-10 bg-white"
@@ -61,7 +61,7 @@ const Project = () => {
                     <Link href='https:/github.com/Oluotanmi/Lotus_Music'>
                         <Image 
                             alt="img"
-                            src={linkedin}
+                            src={Github}
                             width={250}
                             height={250}
                             className="rounded-md m-10  w-10 bg-white"
@@ -91,7 +91,7 @@ const Project = () => {
                     <Link href='https:/github.com/Oluotanmi/Book-Hub'>
                             <Image 
                                 alt="img"
-                                src={linkedin}
+                                src={Github}
                                 width={250}
                                 height={250}
                                 className="rounded-md m-10  w-10 bg-white"
@@ -120,7 +120,7 @@ const Project = () => {
                     <Link href='https:/github.com/Oluotanmi/Gestalll'>
                             <Image 
                                 alt="img"
-                                src={linkedin}
+                                src={Github}
                                 width={250}
                                 height={250}
                                 className="rounded-md m-10  w-10 bg-white"
