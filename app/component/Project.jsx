@@ -28,7 +28,7 @@ const Project = () => {
                         />
                     </Link>
 
-                    <Link href='https://github.com/Oluotanmi/magix-movies.git'>
+                    <a href='https://github.com/Oluotanmi/magix-movies.git'>
                     <Image 
                         alt="img"
                         src={Github}
@@ -36,7 +36,7 @@ const Project = () => {
                         height={250}
                         className="rounded-md m-10  w-10 bg-white"
                         />
-                    </Link>
+                    </a>
                 </div>
                 <div className="text-right mt-2 xl:m-9">                   
                     <h1 className="text-white font-extrabold bg-gradient-to-r from-primary-200 to bg-blue-400 p-1 rounded-md">Magix movies</h1>
@@ -58,7 +58,7 @@ const Project = () => {
                         />
                     </Link>
 
-                    <Link href='https://github.com/Oluotanmi/Lotus_Music.git'>
+                    <a href='https://github.com/Oluotanmi/Lotus_Music.git'>
                         <Image 
                             alt="img"
                             src={Github}
@@ -66,7 +66,7 @@ const Project = () => {
                             height={250}
                             className="rounded-md m-10  w-10 bg-white"
                             />
-                    </Link>
+                    </a>
                 </div>
                 <div className="text-right mt-2 xl:m-9">
                     <h1 className="text-white font-extrabold bg-gradient-to-r from-primary-200 to bg-blue-400 p-1 rounded-md">LotusMusic</h1>
@@ -88,7 +88,7 @@ const Project = () => {
                         />
                     </Link>
 
-                    <Link href='https://github.com/Oluotanmi/Book-Hub.git'>
+                    <a href='https://github.com/Oluotanmi/Book-Hub.git'>
                             <Image 
                                 alt="img"
                                 src={Github}
@@ -96,7 +96,7 @@ const Project = () => {
                                 height={250}
                                 className="rounded-md m-10  w-10 bg-white"
                                 />
-                        </Link>
+                        </a>
                     </div>
                 <div className="text-right mt-2 xl:m-9">
                     <h1 className="text-white font-extrabold bg-gradient-to-r from-primary-200 to bg-blue-400 p-1 rounded-md">Book Hub</h1>
@@ -117,7 +117,7 @@ const Project = () => {
                         className="rounded-md xl:w-[500px] "
                         />
                     </Link>
-                    <Link href='https://github.com/Oluotanmi/Gestalll.git'>
+                    <a href='https://github.com/Oluotanmi/Gestalll.git'>
                             <Image 
                                 alt="img"
                                 src={Github}
@@ -125,7 +125,7 @@ const Project = () => {
                                 height={250}
                                 className="rounded-md m-10  w-10 bg-white"
                                 />
-                        </Link>
+                     </a>
                 </div>
                 <div className="text-right mt-2 xl:m-9">
                     <h1 className="text-white font-extrabold bg-gradient-to-r from-primary-200 to bg-blue-400 p-1 rounded-md">Getstall</h1>
