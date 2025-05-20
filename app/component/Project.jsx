@@ -23,7 +23,7 @@ const Project = () => {
                     <Link href='https://cendclothing.com'>
                         <Image 
                         alt="img"
-                        src={cend}
+                        src="/cend.png"
                         width={250}
                         height={250}
                         className="rounded-md xl:w-[1500px]"
