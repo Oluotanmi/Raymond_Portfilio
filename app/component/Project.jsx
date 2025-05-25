@@ -25,7 +25,7 @@ const Project = () => {
                         src="/cend.png"
                         width={250}
                         height={250}
-                        className="rounded-md xl:w-[1500px]"
+                        className="rounded-md xl:w-[1500px] sm:w-[1200px]"
                         />
                     </Link>
 
@@ -33,9 +33,9 @@ const Project = () => {
                     <Image 
                         alt="img"
                         src={Github}
-                        width={250}
-                        height={250}
-                        className="rounded-md m-10  xl:w-10 bg-white"
+                        width={50}
+                        height={50}
+                        className="rounded-md xl:m-10 sm:w-[10px] sm:h-[10px]  xl:w-[40px] xl:h-[40px] bg-white"
                         />
                     </a>
                 </div>
@@ -57,7 +57,7 @@ const Project = () => {
                         src={talent}
                         width={250}
                         height={250}
-                        className="rounded-md xl:w-[1500px]"
+                        className="rounded-md xl:w-[1500px] sm:w-[1200px]"
                         />
                     </Link>
 
@@ -65,9 +65,9 @@ const Project = () => {
                     <Image 
                         alt="img"
                         src={Github}
-                        width={250}
-                        height={250}
-                        className="rounded-md m-10  xl:w-10 bg-white"
+                        width={50}
+                        height={50}
+                        className="rounded-md  xl:m-10 bg-white  xl:w-[40px] xl:h-[40px]"
                         />
                     </a>
                 </div>
@@ -100,9 +100,9 @@ const Project = () => {
                     <Image 
                         alt="img"
                         src={Github}
-                        width={250}
-                        height={250}
-                        className="rounded-md m-10  w-10 bg-white"
+                        width={50}
+                        height={50}
+                        className="rounded-md xl:m-10 bg-white  xl:w-[40px] xl:h-[40px]"
                         />
                     </a>
                 </div>
@@ -134,9 +134,9 @@ const Project = () => {
                         <Image 
                             alt="img"
                             src={Github}
-                            width={250}
-                            height={250}
-                            className="rounded-md m-10  w-10 bg-white"
+                            width={50}
+                            height={50}
+                            className="rounded-md xl:m-10 bg-white  xl:w-[40px] xl:h-[40px]"
                             />
                     </a>
                 </div>
@@ -170,7 +170,7 @@ const Project = () => {
                                 src={Github}
                                 width={250}
                                 height={250}
-                                className="rounded-md m-10  w-10 bg-white"
+                                className="rounded-md xl:m-10  w-10 bg-white"
                                 />
                         </a>
                     </div>
@@ -203,7 +203,7 @@ const Project = () => {
                                 src={Github}
                                 width={250}
                                 height={250}
-                                className="rounded-md m-10  w-10 bg-white"
+                                className="rounded-md xl:m-10  w-10 bg-white"
                                 />
                      </a>
                 </div>
