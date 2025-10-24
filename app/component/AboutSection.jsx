@@ -56,6 +56,7 @@ const AboutSection = () => {
     
     startTransition(() =>{
       setTab(id);
+      isPending
     })
   }
 
