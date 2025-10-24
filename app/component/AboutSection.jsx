@@ -50,14 +50,13 @@ const TAB_DATA = [
 const AboutSection = () => {
 
   const [tab, setTab] = useState('skills');
-//   const [isPending, startTransition] = useTransition()
+  const [isPending, startTransition] = useTransition()
 
   const handleTabChange =(id) => { 
     
     startTransition(() =>{
-        
-    //   setTab(id);
-    //   isPending
+      setTab(id);
+      
     })
   }
 
@@ -80,6 +79,8 @@ const AboutSection = () => {
                     i am a team player and i am excited to work wiith others to create amazing application 
                 </p>
                 <div className="flex flex-row justify-start mt-8">
+                {isPending && <p className="text-gray-400">Loading...</p>}
+
                     <TabButton 
                        selectTab={() => handleTabChange("skills") }
                        active={tab === "skills"}
