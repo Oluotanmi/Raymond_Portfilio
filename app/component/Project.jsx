@@ -6,12 +6,11 @@ import Image from "next/image";
 import Magix_movies from '../../Public/Screenshot 2024-04-20 222824.png'
 import Lotus_Music from '../../Public/lotus.png'
 import Book_Hub from '../../Public/Screenshot 2024-05-16 182920.png'
-import Getstall from '../../Public/Screenshot getsall.png'
 import talent from '../../Public/Screenshot 2025-04-08 164835.png'
 import cendPick from '../../Public/cend.png'
 import clip from '../../Public/clip.png'
 import Link from "next/link";
-import Github from '../../Public/github.png' 
+
 
 const Project = () => {
     return(
