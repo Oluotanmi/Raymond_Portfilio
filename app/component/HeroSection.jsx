@@ -17,8 +17,9 @@ const HeroSection = () => {
               initial = {{ opacity: 0, scale: 0.5 }}
               animate = {{ opacity: 1, scale: 1   }}
               transition = {{ duration: 1 }}
-              className=" cols-span-8  place-self-center sm:text-left text-center jusrify-self-start"
+              className=" cols-span-8  place-self-center sm:text-left text-center jusrify-self-start "
            >
+            <div className="bg-[radial-gradient(ellipse_at-center,_var(--tw-gradient-stops))] from bg-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-0 right-3/4 transform -translate-x-1/2 -translate-1/2"></div>
            <h1 className="text-white mb-4 text-3xl lg:text-6xl lg:leading-normal font-extrabold">
              <span className=" text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to bg-blue-400">
                 Hello, I&apos;m{" "}

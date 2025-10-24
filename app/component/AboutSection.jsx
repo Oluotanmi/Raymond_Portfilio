@@ -4,7 +4,7 @@ import React,{useState} from "react"
 import Image from "next/image"
 import image from '@/Public/IMG-20230410-WA0024.jpg'
 import TabButton from './TabButton'
-// import { useTransition } from "react"
+import { useTransition } from "react"
 
 const TAB_DATA = [
     {
@@ -21,6 +21,8 @@ const TAB_DATA = [
                <li>HTML</li>
                <li>CSS</li>
                <li>Javascript</li>
+               <li>Angular</li>
+
             </ul>
         )
     },
@@ -48,13 +50,13 @@ const TAB_DATA = [
 const AboutSection = () => {
 
   const [tab, setTab] = useState('skills');
-//   const [isPending, startTransition] = useTransition()
+  const [isPending, startTransition] = useTransition()
 
-  const handleTabChange =(id) => {
+  const handleTabChange =(id) => { 
     
-    // startTransition(() =>{
+    startTransition(() =>{
       setTab(id);
-    // })
+    })
   }
 
     return(
@@ -73,7 +75,7 @@ const AboutSection = () => {
                     I am a front-end web developer with a passion for creating interactive and responsive web application, 
                     I have experience working with Javascript, React, Redux, Node.js, Express, PostgreSQL, sequelize, HTML, CSS and Git. 
                     I am a quick learner and i am always looking to expand my knowledge and skill set.
-                     i am a team player and i am excited to work wiith others to create amazing application 
+                    i am a team player and i am excited to work wiith others to create amazing application 
                 </p>
                 <div className="flex flex-row justify-start mt-8">
                     <TabButton 
