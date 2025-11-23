@@ -9,6 +9,7 @@ import Book_Hub from '../../Public/Screenshot 2024-05-16 182920.png'
 import talent from '../../Public/Screenshot 2025-04-08 164835.png'
 import cendPick from '../../Public/cend.png'
 import clip from '../../Public/clip.png'
+import coinhub from '../../Public/Screenshot 2025-09-13 092913.png'
 import Link from "next/link";
 
 
@@ -18,34 +19,67 @@ const Project = () => {
              <h2 className=" text-center text-white text-bold rounded-md">Projects</h2>
 
              <div className="justify-center text-center">
-             <div className="xl:flex mt-10 justify-around">
-                <div className="xl:flex">
-                    <Link href='https://customer.cendclothing.com'>
-                        <Image 
-                        alt="img"
-                        src={cendPick}
-                        className="rounded-md xl:w-[1500px] sm:w-[500px]"
-                        />
-                    </Link>
 
-                    {/* <a href='customer.cendclothing.com' className="sm:m-10">
-                    <Image 
-                        alt="img"
-                        src={Github}
-                        width={50}
-                        height={50}
-                        className="rounded-md xl:m-10 sm:m-10 xl:w-[40px] xl:h-[40px] bg-white xl:none"
-                        />
-                    </a> */}
+                <div className="xl:flex mt-10 justify-around">
+                    
+                    <div className="xl:flex">
+                        <Link href='https://coin-hne291exr-oluotanmis-projects.vercel.app/'>
+                            <Image 
+                            alt="img"
+                            src={coinhub}
+                            className="rounded-md xl: sm:w-[500px]"
+                            />
+                        </Link>
+
+                        {/* <a href='customer.cendclothing.com' className="sm:m-10">
+                        <Image 
+                            alt="img"
+                            src={Github}
+                            width={50}
+                            height={50}
+                            className="rounded-md xl:m-10 sm:m-10 xl:w-[40px] xl:h-[40px] bg-white xl:none"
+                            />
+                        </a> */}
+                    </div>
+
+                    <div className="text-start mt-2 xl:m-9 xl:w-[500px]">                   
+                        <h1 className="text-white font-extrabold bg-gradient-to-r from-primary-200 to bg-blue-400 p-1 rounded-md">CoinHub</h1>
+                        <p className="text-white text-sm mt-5">
+                          Your comprehensive platform for cryptocurrency market data, portfolio management, and Web3 integration. Track, analyze, and optimize your crypto journey.
+                        </p>
+                    </div>
                 </div>
-                <div className="text-start mt-2 xl:m-9">                   
-                    <h1 className="text-white font-extrabold bg-gradient-to-r from-primary-200 to bg-blue-400 p-1 rounded-md">CendClothing</h1>
-                    <p className="text-white text-sm mt-5">
-                        CendClothing is a modern e-commerce website focused on showcasing stylish, trend-forward apparel. 
-                        It was designed with a clean user interface, intuitive navigation, and a mobile-first approach to
-                         ensure a smooth shopping experience for users across all devices.
-                    </p>
-                </div>
+
+                <div className="xl:flex mt-10 justify-around">
+                    
+                    <div className="xl:flex">
+                        <Link href='https://customer.cendclothing.com'>
+                            <Image 
+                            alt="img"
+                            src={cendPick}
+                            className="rounded-md xl: sm:w-[500px]"
+                            />
+                        </Link>
+
+                        {/* <a href='customer.cendclothing.com' className="sm:m-10">
+                        <Image 
+                            alt="img"
+                            src={Github}
+                            width={50}
+                            height={50}
+                            className="rounded-md xl:m-10 sm:m-10 xl:w-[40px] xl:h-[40px] bg-white xl:none"
+                            />
+                        </a> */}
+                    </div>
+
+                    <div className="text-start mt-2 xl:m-9 xl:w-[500px]">                   
+                        <h1 className="text-white font-extrabold bg-gradient-to-r from-primary-200 to bg-blue-400 p-1 rounded-md">CendClothing</h1>
+                        <p className="text-white text-sm mt-5">
+                            CendClothing is a modern e-commerce website focused on showcasing stylish, trend-forward apparel. 
+                            It was designed with a clean user interface, intuitive navigation, and a mobile-first approach to
+                            ensure a smooth shopping experience for users across all devices.
+                        </p>
+                    </div>
                 </div>
 
                 <div className="xl:flex mt-10 justify-around">
@@ -56,21 +90,11 @@ const Project = () => {
                         src={talent}
                         // width={250}
                         // height={250}
-                        className="rounded-md xl:w-[1500px] sm:w-[1200px]"
+                        className="rounded-md sm:w-[500px]"
                         />
                     </Link>
-
-                    <a href='https://talentpoolresourcesinternational.com'>
-                    {/* <Image 
-                        alt="img"
-                        src={Github}
-                        width={50}
-                        height={50}
-                        className="rounded-md  xl:m-10 bg-white  xl:w-[40px] xl:h-[40px]"
-                        /> */}
-                    </a>
                 </div>
-                <div className="text-start mt-2 xl:m-9">                   
+                <div className="text-start mt-2 xl:m-9 xl:w-[500px]">                   
                     <h1 className="text-white font-extrabold bg-gradient-to-r from-primary-200 to bg-blue-400 p-1 rounded-md">TalentPool</h1>
                     <p className="text-white text-sm mt-5">
                         Talent Pool Resources International is a recruitment and talent management platform aimed at connecting
@@ -82,30 +106,18 @@ const Project = () => {
                 </div>
              </div>
             
-             <div className="justify-center text-center">
-                <div className="xl:flex mt-10">
-                <div className="flex">
+             <div className=" mt-10  ">
+                <div className="xl:flex justify-around">
+               
                     <Link href='https://magix-movies.onrender.com'>
                         <Image 
                         alt="img"
                         src={Magix_movies}
-                        // width={250}
-                        // height={250}
-                        className="rounded-md xl:w-[1300px]"
+                        className="rounded-md sm:w-[500px] "
                         />
                     </Link>
-
-                    <a href='https://github.com/Oluotanmi/magix-movies.git'>
-                    {/* <Image 
-                        alt="img"
-                        src={Github}
-                        width={50}
-                        height={50}
-                        className="rounded-md xl:m-10 bg-white  xl:w-[40px] xl:h-[40px]"
-                        /> */}
-                    </a>
-                </div>
-                <div className="text-start mt-2 xl:m-9">                   
+             
+                <div className="text-start mt-2 xl:m-9 xl:w-[500px]">                   
                     <h1 className="text-white font-extrabold bg-gradient-to-r from-primary-200 to bg-blue-400 p-1 rounded-md">Magix movies</h1>
                     <p className="text-white text-sm mt-5">
                         Magix Movies is a responsive web application that allows users to browse and search for movies using 
@@ -116,8 +128,8 @@ const Project = () => {
                 </div>
              </div>
 
-             <div className="xl:m-5">
-                <div className="xl:flex mt-10">
+             <div className=" mt-10 ">
+                <div className="xl:flex justify-around">
                 <div className="flex">
                     <Link href='https://lotus-music-1.onrender.com/'>
                         <Image 
@@ -125,21 +137,12 @@ const Project = () => {
                         src={Lotus_Music}
                         // width={250}
                         // height={250}
-                        className="rounded-md xl:w-[1300px] sm:w-[600px]"
+                        className="rounded-md  sm:w-[500px]"
                         />
                     </Link>
 
-                    {/* <a href='https://github.com/Oluotanmi/Lotus_Music.git'>
-                        <Image 
-                            alt="img"
-                            src={Github}
-                            width={50}
-                            height={50}
-                            className="rounded-md xl:m-10 bg-white  xl:w-[40px] xl:h-[40px]"
-                            />
-                    </a> */}
                 </div>
-                <div className="text-start mt-2 xl:m-9">
+                <div className="text-start mt-2 xl:m-9 xl:w-[500px]">
                     <h1 className="text-white font-extrabold bg-gradient-to-r from-primary-200 to bg-blue-400 p-1 rounded-md">LotusMusic</h1>
                     <p className="text-white text-sm mt-5">
                         Lotus Music is a modern, music-streaming web application that allows users to explore and enjoy a collection 
@@ -151,7 +154,7 @@ const Project = () => {
              </div>
 
              <div className="xl:m-5">
-                <div className="xl:flex mt-10">
+                <div className="xl:flex mt-10 justify-around">
                 <div className="flex">
                     <Link href='https://book-hub-5u1f.onrender.com'>
                         <Image 
@@ -159,21 +162,12 @@ const Project = () => {
                         src={Book_Hub}
                         // width={250}
                         // height={250}
-                        className="rounded-md xl:w-[1300px]"
+                        className="rounded-md sm:w-[500px]"
                         />
                     </Link>
 
-                    {/* <a href='https://github.com/Oluotanmi/Book-Hub.git'>
-                            <Image 
-                                alt="img"
-                                src={Github}
-                                width={250}
-                                height={250}
-                                className="rounded-md xl:m-10  w-10 bg-white"
-                                />
-                        </a> */}
                     </div>
-                <div className="text-start mt-2 xl:m-9">
+                <div className="text-start mt-2 xl:m-9 xl:w-[500px]">
                     <h1 className="text-white font-extrabold bg-gradient-to-r from-primary-200 to bg-blue-400 p-1 rounded-md">Book Hub</h1>
                     <p className="text-white text-sm mt-5">
                            Book Hub is a responsive web application that allows users to explore a curated library of 
@@ -185,35 +179,25 @@ const Project = () => {
              </div>
 
              <div className="xl:flex mt-10 justify-around">
-                <div className="flex">
-                    <Link href='https://cendclothing.com'>
+      
+                    <Link href='https://'>
                         <Image 
                         alt="img"
                         src={clip}
                         // width={250}
                         // height={250}
-                        className="rounded-md xl:w-[1500px] sm:w-[1200px]"
+                        className="rounded-md sm:w-[500px]"
                         />
                     </Link>
 
-                    <a href='cendclothing.com'>
-                    {/* <Image 
-                        alt="img"
-                        src={Github}
-                        width={50}
-                        height={50}
-                        className="rounded-md xl:m-10 sm:w-[10px] sm:h-[10px]  xl:w-[40px] xl:h-[40px] bg-white"
-                        /> */}
-                    </a>
-                </div>
-                <div className="text-start mt-2 xl:m-9">                   
+              
+                <div className="text-start mt-2  xl:w-[500px]">                   
                     <h1 className="text-white font-extrabold bg-gradient-to-r from-primary-200 to bg-blue-400 p-1 rounded-md">ClipView</h1>
                     <p className="text-white text-sm mt-5">
-                        CendClothing is a modern e-commerce website focused on showcasing stylish, trend-forward apparel. 
-                        It was designed with a clean user interface, intuitive navigation, and a mobile-first approach to
-                         ensure a smooth shopping experience for users across all devices.
+                       Clip-view is a streaming platform for video games and uploading of video games
                     </p>
                 </div>
+                
                 </div>
 
              {/* <div className="m-5">
@@ -235,7 +219,7 @@ const Project = () => {
                                 width={250}
                                 height={250}
                                 className="rounded-md xl:m-10  w-10 bg-white"
-                                />
+                            />
                      </a>
                 </div>
                 <div className="text-right mt-2 xl:m-9">
