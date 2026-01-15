@@ -23,7 +23,7 @@ const Project = () => {
                 <div className="xl:flex mt-10 justify-around">
                     
                     <div className="xl:flex">
-                        <Link href='https://coin-hne291exr-oluotanmis-projects.vercel.app/'>
+                        <Link href='https://coin-qatgzps8j-oluotanmis-projects.vercel.app/'>
                             <Image 
                             alt="img"
                             src={coinhub}
